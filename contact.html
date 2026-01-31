@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кофейня Green Bean | Контакты</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <a href="index.html" class="logo">Green<span>Bean</span></a>
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="about.html">О нас</a></li>
+                    <li><a href="menu.html">Меню</a></li>
+                    <li><a href="gallery.html">Галерея</a></li>
+                    <li><a href="events.html">События</a></li>
+                    <li><a href="contact.html">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <section class="hero">
+                <h1>Свяжитесь с нами</h1>
+                <p>Мы всегда рады вашим вопросам, отзывам и предложениям.</p>
+            </section>
+
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; margin: 3rem 0;">
+                <div>
+                    <h2 style="color: #1a3c34; margin-bottom: 1.5rem;">Наши контакты</h2>
+                    
+                    <div style="margin-bottom: 2rem;">
+                        <h3 style="color: #8fb996; margin-bottom: 0.5rem;"><i class="fas fa-map-marker-alt"></i> Адрес</h3>
+                        <p>ул. Кофейная, 15<br>Москва, 123456</p>
+                    </div>
+                    
+                    <div style="margin-bottom: 2rem;">
+                        <h3 style="color: #8fb996; margin-bottom: 0.5rem;"><i class="fas fa-phone"></i> Телефон</h3>
+                        <p>+7 (999) 123-45-67</p>
+                    </div>
+                    
+                    <div style="margin-bottom: 2rem;">
+                        <h3 style="color: #8fb996; margin-bottom: 0.5rem;"><i class="fas fa-envelope"></i> Email</h3>
+                        <p>info@greenbean.ru<br>reservations@greenbean.ru</p>
+                    </div>
+                    
+                    <div style="margin-bottom: 2rem;">
+                        <h3 style="color: #8fb996; margin-bottom: 0.5rem;"><i class="fas fa-clock"></i> Часы работы</h3>
+                        <p>Понедельник - Пятница: 7:00 - 22:00<br>
+                        Суббота - Воскресенье: 8:00 - 23:00</p>
+                    </div>
+                    
+                    <div>
+                        <h3 style="color: #8fb996; margin-bottom: 0.5rem;">Социальные сети</h3>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-vk"></i></a>
+                            <a href="#"><i class="fab fa-telegram"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <h2 style="color: #1a3c34; margin-bottom: 1.5rem;">Напишите нам</h2>
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Имя *</label>
+                            <input type="text" id="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">Телефон</label>
+                            <input type="tel" id="phone">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Тема</label>
+                            <select id="subject">
+                                <option value="">Выберите тему</option>
+                                <option value="reservation">Бронь столика</option>
+                                <option value="feedback">Отзыв</option>
+                                <option value="question">Вопрос</option>
+                                <option value="collaboration">Сотрудничество</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Сообщение *</label>
+                            <textarea id="message" rows="5" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn" style="width: 100%;">Отправить сообщение</button>
+                    </form>
+                </div>
+            </div>
+
+            <section style="margin: 3rem 0;">
+                <h2 style="color: #1a3c34; margin-bottom: 1.5rem; text-align: center;">Как нас найти</h2>
+                <div style="background-color: #f5f5f5; padding: 2rem; border-radius: 10px; text-align: center;">
+                    <p style="margin-bottom: 1rem;">Мы находимся в центре города, рядом с парком. От метро "Центральная" 5 минут пешком.</p>
+                    <img src="https://maps.googleapis.com/maps/api/staticmap?center=55.7558,37.6173&zoom=15&size=600x300&scale=2&markers=color:green%7C55.7558,37.6173&key=YOUR_KEY_HERE" alt="Карта" style="width: 100%; max-width: 600px; height: 300px; object-fit: cover; border-radius: 5px;">
+                    <p style="margin-top: 1rem; font-size: 0.9rem; color: #666;">* Для точной карты потребуется API ключ Google Maps</p>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Кофейня Green Bean</h3>
+                    <p>Лучшее место для любителей кофе. Мы открыты с 2010 года и гордимся нашим качеством.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Часы работы</h3>
+                    <ul>
+                        <li>Пн-Пт: 7:00 - 22:00</li>
+                        <li>Сб-Вс: 8:00 - 23:00</li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Контакты</h3>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> ул. Кофейная, 15</li>
+                        <li><i class="fas fa-phone"></i> +7 (999) 123-45-67</li>
+                        <li><i class="fas fa-envelope"></i> info@greenbean.ru</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2023 Кофейня Green Bean. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.querySelector('.menu-toggle').addEventListener('click', function() {
+            document.querySelector('.nav-links').classList.toggle('active');
+        });
+
+        // Простая валидация формы
+        document.querySelector('.contact-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Спасибо за ваше сообщение! Мы свяжемся с вами в ближайшее время.');
+            this.reset();
+        });
+    </script>
+</body>
+</html>
